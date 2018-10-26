@@ -5,7 +5,7 @@ require 'benchmark'
 
 
 puts Benchmark.measure {
-  50_000.times do
+  100_000.times do
 # Add  code here!
 def prime?(n)
   if n < 0 || n == 0 || n == 1
