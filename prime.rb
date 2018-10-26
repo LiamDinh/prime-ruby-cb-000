@@ -1,3 +1,11 @@
+require 'benchmark'
+
+
+# calculate pi to 10k digits
+
+
+puts Benchmark.measure {
+  50_000.times do 
 # Add  code here!
 def prime?(n)
   if n < 0 || n == 0 || n == 1
@@ -8,3 +16,6 @@ def prime?(n)
     end
   end
 end 
+end
+}
+
